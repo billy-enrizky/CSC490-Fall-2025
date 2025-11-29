@@ -13,3 +13,6 @@ All notable changes to this project will be documented in this file.
 - HTML to Jupyter notebook conversion script (`html_to_notebook.py`)
 - Converted HTML content to Jupyter notebook format (`scraped_content/page.ipynb`)
 
+### Fixed
+- Converted `README.md` from Jupyter notebook JSON format to plain markdown format
+

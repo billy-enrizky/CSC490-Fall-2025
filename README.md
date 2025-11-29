@@ -1,0 +1,83 @@
+# [csc490](https://diophontine.github.io/csc490/)
+
+# CSC 490 Fall 2025
+
+![](LittleRobot.png)
+
+## ML Engineering Capstone
+
+This hands-on course will combine ML engineering theory with hands on building ML and AI systems. Topics include AI product management, Cloud Infrastructure, Model Training, Model Inference and ML Systems Design.
+
+Throughout the semester there will be guest lectures to provide industry insight on topics covered in class. The class will culminate in a final presentation on a research or product based project.
+
+More details can be found in [syllabus](https://diophontine.github.io/csc490/syllabus/syllabus.pdf) and [piazza](https://piazza.com/utoronto.ca/fall2025/csc490).
+
+* * *
+
+### Announcements:
+
+  * A4, A5, A6 extensions until Nov 7, 14 and 28 respectively
+  * A3 extension until Oct 29th!
+  * A3 extension until Oct 22nd!
+  * Lectures begin on Sept 3rd!
+
+* * *
+
+### Instructors:
+
+Instructor | [Denys Linkov](https://www.linkedin.com/in/denyslinkov/)
+---|---
+Email | csc490-2025-09@cs.toronto.edu
+Office hours | By Appointment
+
+* * *
+
+### Teaching Assistants:
+
+  * ## Yuchi (Allan) Zhao
+
+### Time & Location:
+
+Section | Lecture | Tutorial
+---|---|---
+CSC490H1-F-LEC5101 | W 6-9pm @ DSCIL | N/A
+
+* * *
+
+### Suggested Reading
+
+No required textbooks. Suggested reading will be posted after each lecture (See lectures below).
+
+* * *
+
+## Lectures and timeline
+
+Week | Lectures | Suggested reading | Guest Speakers | Timeline
+---|---|---|---|---
+1 | [The Gen AI Landscape and AI product management](https://docs.google.com/presentation/d/1s_G1HWbeMExunUiMlXxGi81UvgS4-l2sR_ezoL5NQIE/edit?usp=sharing) |  | [Rob Hayes](https://www.linkedin.com/in/therobhayes/)   [Elliott Choi](https://www.linkedin.com/in/elliottchoi/) | Sept 3
+2 | [Intro to docker, kuberenetes, cloud, terraform and architecture diagrams](https://docs.google.com/presentation/d/1TAdKaSBpb0U_vxuCEJqw2dWW7KVw6KA9Q6zGgbRDci0/edit?usp=sharing) | [Short collab for running a model](https://colab.research.google.com/drive/1LTiRDu4ATpufXVZzbUoVMJ_bImKCUdlJ#scrollTo=P_EZZYNQ7CW2)  [Terraform on aws tutorial](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-create)  [Good intro to kubernetes](https://www.youtube.com/watch?v=90kZRyPcRZw)  [Intro to tokenizers](https://huggingface.co/learn/llm-course/en/chapter2/4)  [7 principles of mlops security](https://denyslinkov.medium.com/7-layers-of-mlops-security-5bfd87eea928) | [Xavier Portilla Edo](https://www.linkedin.com/in/xavierportillaedo/) | Sept 10
+3 | [Evaluating ML products](https://docs.google.com/presentation/d/1ppohuXq96yq03AGzT2d3QZLv1twnUv46UUSVotEcQDs/edit?usp=sharing) |  | [Francis Silva](https://www.linkedin.com/in/francis-silva-pmp/)   [Kelsey Hightower](https://www.linkedin.com/in/kelsey-hightower-849b342b1/) | Sept 17
+4 | [Prompting and Constrained decoding](https://docs.google.com/presentation/d/1LiWJhFqVrbh9YTSzMxvCli2HN7_KGx4E6kNEwAuKj0I/edit?usp=sharing) | [DOMINO Paper](https://arxiv.org/pdf/2403.06988)  [Tokenizer colab](https://colab.research.google.com/drive/1H6CBoXk56iLytNcodBXClNhLDT6u9AZm?usp=sharing) |  | Sept 24
+5 | [Model serving deep dive 1 - Model Serving and LORA](https://docs.google.com/presentation/d/1c7_V5AGhflD5Jrff0gFqcYi5RPSKpPnUc_Oinchx2Gg/edit?usp=sharing) | [VLLM Toronto Meetup Slides](https://docs.google.com/presentation/d/1IYJYmJcu9fLpID5N5RbW_vO0XLo0CGOR14IXOjB61V8/edit?slide=id.g38254a393a7_3_854#slide=id.g38254a393a7_3_854)  [TGI blogpost](https://www.adyen.com/knowledge-hub/llm-inference-at-scale-with-tgi)  [1ms BERT latency](https://medium.com/data-science/hugging-face-transformer-inference-under-1-millisecond-latency-e1be0057a51c)  [Scaling BERT Inference on a CPU](https://huggingface.co/blog/bert-cpu-scaling-part-1) | [Dimitry Linkov](https://www.linkedin.com/in/dimitry-linkov/) | Oct 1
+6 | [Model serving deep dive 2 - Speculative decoding & KV caching](https://docs.google.com/presentation/d/1G0zMUp3A8pR45-wiS8XRczoj15ZuhMt5jiUyStF6V18/edit?usp=sharing) | [KV Cache from huggingface](https://huggingface.co/blog/tngtech/llm-performance-prefill-decode-concurrent-requests) | [Kyle Kranen](https://www.linkedin.com/in/kyle-kranen/) | Oct 8
+7 | [Model training - LLM Pre-training, SFT](https://docs.google.com/presentation/d/1I5XnMX1yl7uEoNXG0P_DxHhIRh159eWAmp6qq2_cNcE/edit?usp=sharing) | [BERT Finetuning Huggingface](https://colab.research.google.com/github/huggingface/notebooks/blob/main/transformers_doc/en/training.ipynb)  [SetFIT Hugginface](https://github.com/huggingface/setfit/blob/main/notebooks/text-classification.ipynb)  [LoRA Hugginface](https://huggingface.co/blog/Lora-for-sequence-classification-with-Roberta-Llama-Mistral)  [NanoChat](https://github.com/karpathy/nanochat/discussions/1) | [Nish Sinnadurai](https://www.linkedin.com/in/nish-sinnadurai/)   [Mark Kim-Huang](https://www.linkedin.com/in/markhng525)   [Ian Jordan](https://www.linkedin.com/in/ian-d-jordan-phd-6aa67a22a) | Oct 15
+8 | [Model training - LLM Reinforcement learning and Prompting, PPO, GRPO, RLHF](https://docs.google.com/presentation/d/1Q_okaIGV1KokzjHf3Vl3IfwD3DtTGfrhdiyM46Bwfck/edit?usp=sharing) | [Open AI LM Human Preference ](https://github.com/openai/lm-human-preferences/blob/master/lm_human_preferences/train_policy.py)   [RL for Vision Researchers](https://yugeten.github.io/posts/2025/01/ppogrpo/) | [Sean Grove](https://x.com/sgrove) | Oct 22
+9 | Reading week   (No Class/Tutorial) |  | [PG vs Parquet](https://www.crunchydata.com/blog/parquet-and-postgres-in-the-data-lake) | Oct 29
+10 | [Scalability of ML Systems](https://docs.google.com/presentation/d/1IH4z0gYJfOllPsVmDe_DR6Z2s2SlHvsH22-RnPhtdko/edit?usp=sharing)   [Data Engineering and Information Retrieval] |  | [Mo Eseifan](https://www.linkedin.com/in/moeseifan/)   [Hien Luu](https://www.linkedin.com/in/hienluu) | Nov 5
+11 | [Feature stores and Evaluation metrics](https://docs.google.com/presentation/d/1NOMxIG8Eo0MGbobxEy9K5hlZDZOCNm-KqNn6XM5CGCw/edit?usp=sharing) | [Do you really need a feature store](https://medium.com/data-science/do-you-really-need-a-feature-store-e59e3cc666d3)   [SHAP analysis explainability](https://www.aidancooper.co.uk/a-non-technical-guide-to-interpreting-shap-analyses/) | [Janani Narayanan](https://www.linkedin.com/in/jananinarayanan/) | Nov 12
+12 | [Model serving deep dive 3 - Quantization and CUDA](https://docs.google.com/presentation/d/1RZh6LClLvIV4iVXkFPqKgmlptBnb9272DT2iJDRO5O0/edit?usp=sharing) |  | [Daniel Han](https://www.linkedin.com/in/danielhanchen/)   [Navya Mehta](https://www.linkedin.com/in/navya-mehta-uj/) | Nov 19
+13 | [Search and Recommender systems](https://docs.google.com/presentation/d/1aiWMf2WcBlEJgutyvR-AKQMLilvgwDexJsRnSVCJkT0/edit?usp=sharing) | [System design for recommendation systems](https://eugeneyan.com/writing/system-design-for-discovery/ |  |   ) | [Faye Zhang](https://www.linkedin.com/in/fayezhang413/)   [Moein Hasani](https://www.linkedin.com/in/moein-hasani/) | Nov 26 |  |
+
+* * *
+
+## Assignments
+
+Assignment # | Out | Due
+---|---|---
+[Assignment 1](/csc490/assignments/a1/a1.pdf) | Sept 3 | Sept 17 - 11pm
+[Assignment 2](/csc490/assignments/a2/a2.pdf) | Sept 9 | Oct 1 - 11pm
+[Assignment 3](/csc490/assignments/a3/a3.pdf) | Sept 30 | Oct 31 - 11pm
+[Assignment 4](/csc490/assignments/a4/a4.pdf) | Oct 8 | Nov 7 - 11pm
+[Assignment 5](/csc490/assignments/a5/a5.pdf) | Oct 25 | Nov 14 - 11pm
+[Assignment 6](/csc490/assignments/a6/a6.pdf) | Nov 13 | Nov 28 - 11pm
+[Project](/csc490/assignments/project/project.pdf) | Oct 28 | Dec 2nd - 6pm
