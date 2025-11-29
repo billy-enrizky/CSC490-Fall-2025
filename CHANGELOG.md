@@ -10,4 +10,6 @@ All notable changes to this project will be documented in this file.
   - `page.html` - Raw HTML content
   - `page.txt` - Extracted text content
   - `structured_data.txt` - Structured data including links, tables, and headings
+- HTML to Jupyter notebook conversion script (`html_to_notebook.py`)
+- Converted HTML content to Jupyter notebook format (`scraped_content/page.ipynb`)
 
