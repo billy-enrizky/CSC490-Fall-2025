@@ -1,0 +1,147 @@
+CSC 490 Fall 2025 | csc490
+csc490
+CSC 490  Fall 2025
+ML Engineering Capstone
+This hands-on course will combine ML engineering theory with hands on building ML and AI systems. Topics include AI product management, Cloud Infrastructure, Model Training, Model Inference and ML Systems Design.
+Throughout the semester there will be guest lectures to provide industry insight on topics covered in class. The class will culminate in a final presentation on a research or product based project.
+More details can be found in
+syllabus
+and
+piazza
+.
+Announcements:
+A4, A5, A6 extensions until Nov 7, 14 and 28 respectively
+A3 extension until Oct 29th!
+A3 extension until Oct 22nd!
+Lectures begin on Sept 3rd!
+Instructors:
+Instructor
+Denys Linkov
+Email
+csc490-2025-09@cs.toronto.edu
+Office hours
+By Appointment
+Teaching Assistants:
+Yuchi (Allan) Zhao
+Time & Location:
+Section
+Lecture
+Tutorial
+CSC490H1-F-LEC5101
+W 6-9pm @ DSCIL
+N/A
+Suggested Reading
+No required textbooks. Suggested reading will be posted after each lecture (See lectures below).
+Lectures and timeline
+Week
+Lectures
+Suggested reading
+Guest Speakers
+Timeline
+1
+The Gen AI Landscape and AI product management
+Rob Hayes
+Elliott Choi
+Sept 3
+2
+Intro to docker, kuberenetes, cloud, terraform and architecture diagrams
+Short collab for running a model
+Terraform on aws tutorial
+Good intro to kubernetes
+Intro to tokenizers
+7 principles of mlops security
+Xavier Portilla Edo
+Sept 10
+3
+Evaluating ML products
+Francis Silva
+Kelsey Hightower
+Sept 17
+4
+Prompting and Constrained decoding
+DOMINO Paper
+Tokenizer colab
+Sept 24
+5
+Model serving deep dive 1 - Model Serving and LORA
+VLLM Toronto Meetup Slides
+TGI blogpost
+1ms BERT latency
+Scaling BERT Inference on a CPU
+Dimitry Linkov
+Oct 1
+6
+Model serving deep dive 2 - Speculative decoding & KV caching
+KV Cache from huggingface
+Kyle Kranen
+Oct 8
+7
+Model training - LLM Pre-training, SFT
+BERT Finetuning Huggingface
+SetFIT Hugginface
+LoRA Hugginface
+NanoChat
+Nish Sinnadurai
+Mark Kim-Huang
+Ian Jordan
+Oct 15
+8
+Model training - LLM Reinforcement learning and Prompting, PPO, GRPO, RLHF
+Open AI LM Human Preference
+RL for Vision Researchers
+Sean Grove
+Oct 22
+9
+Reading week
+(No Class/Tutorial)
+PG vs Parquet
+Oct 29
+10
+Scalability of ML Systems
+[Data Engineering and Information Retrieval]
+Mo Eseifan
+Hien Luu
+Nov 5
+11
+Feature stores and Evaluation metrics
+Do you really need a feature store
+SHAP analysis explainability
+Janani Narayanan
+Nov 12
+12
+Model serving deep dive 3 - Quantization and CUDA
+Daniel Han
+Navya Mehta
+Nov 19
+13
+Search and Recommender systems
+[System design for recommendation systems](https://eugeneyan.com/writing/system-design-for-discovery/
+)
+Faye Zhang
+Moein Hasani
+Nov 26
+Assignments
+Assignment #
+Out
+Due
+Assignment 1
+Sept 3
+Sept 17 - 11pm
+Assignment 2
+Sept 9
+Oct 1 - 11pm
+Assignment 3
+Sept 30
+Oct 31 - 11pm
+Assignment 4
+Oct 8
+Nov 7 - 11pm
+Assignment 5
+Oct 25
+Nov 14 - 11pm
+Assignment 6
+Nov 13
+Nov 28 - 11pm
+Project
+Oct 28
+Dec 2nd - 6pm
